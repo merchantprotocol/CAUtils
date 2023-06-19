@@ -22,4 +22,10 @@ setup(
         'Bug Reports': 'https://github.com/merchantprotocol/CAUtils/issues',
         'Source': 'https://github.com/merchantprotocol/CAUtils',
     },
+    install_requires=[
+        'boto3',
+        's3fs',
+        'os', 
+        'shutil'
+    ],
 )
